@@ -90,6 +90,7 @@ class _SignUpScreen extends State<SignUpScreen> {
           child: Column(
             children: [
               TextFormField(
+                autofocus: true,
                 keyboardType: TextInputType.emailAddress,
                 autocorrect: false,
                 controller: emailTextInputController,

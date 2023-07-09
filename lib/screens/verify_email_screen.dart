@@ -87,7 +87,7 @@ class _VerifyEmailScreenState extends State<VerifyEmailScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Text(
-                    'Письмо с подтверждением было отправлено на вашу электронную почту.',
+                    'Письмо со ссылкой на подтверждение было отправлено на вашу электронную почту.',
                     style: TextStyle(
                       fontSize: 20,
                     ),
@@ -105,7 +105,8 @@ class _VerifyEmailScreenState extends State<VerifyEmailScreen> {
                       await FirebaseAuth.instance.currentUser!.delete();
                     },
                     child: const Text(
-                      'Отменить',
+                      // 'Отменить',
+                      'Продолжить',
                       style: TextStyle(
                         color: Colors.blue,
                       ),

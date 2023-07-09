@@ -52,7 +52,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
     }
 
     const snackBar = SnackBar(
-      content: Text('Сброс пароля осуществен. Проверьте почту'),
+      content: Text('Сброс пароля осуществлен. Проверьте почту'),
       backgroundColor: Colors.green,
     );
 

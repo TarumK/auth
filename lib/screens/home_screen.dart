@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
-        title: const Text('Главная страница'),
+        title: const Text('Главный экран'),
         actions: [
           IconButton(
             onPressed: () {
@@ -40,7 +40,7 @@ class HomeScreen extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child: (user == null)
-              ? const Text("Контент для НЕ зарегистрированных в системе")
+              ? const Text("Контент для НЕзарегистрированных в системе")
               : const Text('Контент для ЗАРЕГИСТРИРОВАННЫХ в системе'),
           //child: Text('Контент для НЕ зарегистрированных в системе'),
         ),
