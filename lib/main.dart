@@ -8,6 +8,7 @@ import 'package:flutter_firebase_auth/screens/signup_screen.dart';
 import 'package:flutter_firebase_auth/screens/verify_email_screen.dart';
 import 'package:flutter_firebase_auth/services/firebase_streem.dart';
 
+// fdgfdgdfg
 // Firebase Авторизация - Сценарии:
 //    Войти - Почта / Пароль
 //    Личный кабинет
